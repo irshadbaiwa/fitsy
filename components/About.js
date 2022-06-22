@@ -9,7 +9,7 @@ export default function About() {
   const [tab, setTab] = useState(ABOUT);
 
   return (
-    <section className="section bg-light-shade py-10 mb-0">
+    <section className="section bg-light-shade py-10 mb-0" id="about">
       <h1 className="section-heading">About</h1>
       <h2 className="section-description">Know More About Fitsy</h2>
       <div className="mt-10 mx-5 md:mx-10 max-w-full flex flex-col md:flex-row justify-center items-center overflow-hidden">
@@ -40,7 +40,7 @@ export default function About() {
                 <button
                   onClick={() => setTab(ABOUT)}
                   className={
-                    'text-sm md:text-base py-1 px-2 md:py-2 md:px-4 uppercase font-bold rounded-md transition-all outline-primary' +
+                    'text-sm md:text-base py-2 px-4 uppercase font-bold rounded-md transition-all outline-primary' +
                     (tab === ABOUT
                       ? ' bg-white text-primary'
                       : ' text-supporting')
@@ -51,7 +51,7 @@ export default function About() {
                 <button
                   onClick={() => setTab(SCHEDULE)}
                   className={
-                    'text-sm md:text-base py-1 px-2 md:py-2 md:px-4 uppercase font-bold rounded-md transition-all outline-primary' +
+                    'text-sm md:text-base py-2 px-4 uppercase font-bold rounded-md transition-all outline-primary' +
                     (tab === SCHEDULE
                       ? ' bg-white text-primary'
                       : ' text-supporting')
@@ -62,7 +62,7 @@ export default function About() {
                 <button
                   onClick={() => setTab(CONTACT)}
                   className={
-                    'text-sm md:text-base py-1 px-2 md:py-2 md:px-4 uppercase font-bold rounded-md transition-all outline-primary' +
+                    'text-sm md:text-base py-2 px-4 uppercase font-bold rounded-md transition-all outline-primary' +
                     (tab === CONTACT
                       ? ' bg-white text-primary'
                       : ' text-supporting')
