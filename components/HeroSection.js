@@ -19,12 +19,12 @@ export default function HeroSection() {
             >
               Stay Fit. Stay Healthy.
             </h1>
-            <p className="mt-2 lg:mt-4 font-bold text-content text-lg md:text-3xl">
+            <p className="mt-5 lg:mt-4 font-bold text-content text-lg md:text-3xl">
               Gain fitness by training with the greatest personal trainers you
               could find.
             </p>
             <Fade bottom duration={1200}>
-              <div className="mt-2 lg:mt-4 flex flex-row justify-center md:justify-start">
+              <div className="mt-5 lg:mt-8 mb-3 lg:mt-4 flex flex-row justify-center md:justify-start">
                 <a
                   href="#join"
                   className="mr-2 md:mr-4 whitespace-nowrap outline-primary"
