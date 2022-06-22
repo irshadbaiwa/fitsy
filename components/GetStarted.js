@@ -83,7 +83,7 @@ export default function GetStarted() {
 
         {/* 'Join Us' Form */}
         <div className="m-6">
-          <form className="h-auto max-w-full border-2 border-slate-50 rounded-md shadow-xl p-6">
+          <form className="h-auto max-w-full border-2 border-slate-50 rounded-md shadow-xl shadow-light p-6">
             <div className="flex flex-row flex-wrap justify-between items-center">
               <div className="m-2">
                 <label className="block text-lg" htmlFor="first_name">

@@ -48,7 +48,7 @@ export default function HeroSection() {
             </Fade>
           </div>
           <Fade right delay={500} duration={1200}>
-            <div className="m-4 h-80 w-80 max-w-full lg:h-96 lg:w-96 rounded-md shadow-lg relative">
+            <div className="m-4 h-80 w-96 max-w-full lg:h-96 lg:w-96 rounded-md shadow-lg shadow-light relative">
               <Image
                 className="rounded-md"
                 src="/hero.webp"
