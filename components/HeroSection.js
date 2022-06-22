@@ -24,7 +24,7 @@ export default function HeroSection() {
               could find.
             </p>
             <Fade bottom duration={1200}>
-              <div className="mt-5 lg:mt-8 mb-3 lg:mt-4 flex flex-row justify-center md:justify-start">
+              <div className="mt-5 lg:mt-8 mb-3 flex flex-row justify-center md:justify-start">
                 <a
                   href="#join"
                   className="mr-2 md:mr-4 whitespace-nowrap outline-primary"
