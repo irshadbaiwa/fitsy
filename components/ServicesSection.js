@@ -40,7 +40,7 @@ export default function ServicesSection() {
           <div
             key={index}
             className="h-72 w-72 md:h-80 md:w-80 shadow-lg rounded-md relative my-6 mx-10 md:mx-14"
-            style={{ maxWidth: '75%' }}
+            style={{ maxWidth: '70%' }}
           >
             {/* bg image */}
             <div className="h-full w-full relative rounded-md">
@@ -60,7 +60,7 @@ export default function ServicesSection() {
                 className="h-3/4 w-3/4 p-3 md:p-4 bg-white shadow-lg rounded-md absolute border-2 border-slate-50"
                 style={{
                   top: '12.5%',
-                  left: '50%',
+                  left: '35%',
                 }}
               >
                 {/* header */}

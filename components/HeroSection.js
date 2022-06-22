@@ -8,7 +8,7 @@ export default function HeroSection() {
       <header className="fixed w-full top-0 z-50">
         <Header />
       </header>
-      <section className="mt-16 lg:mt-0">
+      <section className="mt-32 lg:mt-12 mb-12">
         <div className="m-4 lg:m-20 flex flex-col md:flex-row items-center justify-between overflow-hidden">
           <div className="intro m-2 lg:m-4 text-center md:text-left overflow-hidden">
             <h1
@@ -48,7 +48,7 @@ export default function HeroSection() {
             </Fade>
           </div>
           <Fade right delay={500} duration={1200}>
-            <div className="m-4 h-56 w-56 lg:h-96 lg:w-96 rounded-md shadow-lg relative">
+            <div className="m-4 h-80 w-80 max-w-full lg:h-96 lg:w-96 rounded-md shadow-lg relative">
               <Image
                 className="rounded-md"
                 src="/hero.webp"

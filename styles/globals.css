@@ -1,13 +1,13 @@
 @tailwind base;
 @layer base {
   .section {
-    @apply my-5 md:my-10 lg:my-14;
+    @apply mt-10 mb-5 md:mb-10 md:mt-14 lg:mb-14 lg:mt-20;
   }
   .section-heading {
-    @apply text-primary font-bold text-center text-sm lg:text-base uppercase;
+    @apply text-primary font-bold text-center text-lg lg:text-xl uppercase;
   }
   .section-description {
-    @apply text-emphasized font-semibold text-center text-lg md:text-2xl;
+    @apply text-emphasized font-semibold text-center text-xl md:text-2xl;
   }
 }
 @tailwind components;
