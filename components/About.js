@@ -125,7 +125,7 @@ export default function About() {
                 (tab === CONTACT && (
                   <div className="text-md md:text-xl flex flex-row flex-wrap items-start justify-center">
                     <div className="mx-2">
-                      <h3 className="mt-5 font-medium flex items-start justify-start">
+                      <h3 className="mt-2 font-medium flex items-start justify-start">
                         <svg
                           className="h-6 inline-block mr-2"
                           xmlns="http://www.w3.org/2000/svg"
