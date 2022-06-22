@@ -1,9 +1,12 @@
 export default function Footer() {
   return (
     <section className="section bg-light-shade m-0 pt-10 pb-4">
-      <a className="mt-2 flex justify-center items-center" href="#">
+      <a
+        className="visited:fill-supporting mt-2 flex justify-center items-center"
+        href="#"
+      >
         <svg
-          className="h-8"
+          className="h-8 fill-supporting"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 384 512"
         >

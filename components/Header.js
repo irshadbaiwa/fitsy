@@ -30,11 +30,11 @@ export default function Header() {
       {/* Nav Links for Large Screens */}
       <nav className="hidden lg:flex flex-row">
         <a
-          className="p-1 mx-4 text-xl font-medium flex items-center rounded-md outline-primary"
+          className="visited:fill-supporting p-1 mx-4 text-xl font-medium flex items-center rounded-md outline-primary"
           href="#"
         >
           <svg
-            className="h-5 inline-block mr-2"
+            className="fill-supporting h-5 inline-block mr-2"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 576 512"
           >
@@ -43,11 +43,11 @@ export default function Header() {
           <span>Home</span>
         </a>
         <a
-          className="p-1 mx-4 text-xl font-medium flex items-center rounded-md outline-primary"
+          className="visited:fill-supporting p-1 mx-4 text-xl font-medium flex items-center rounded-md outline-primary"
           href="#services"
         >
           <svg
-            className="h-5 inline-block mr-2"
+            className="fill-supporting h-5 inline-block mr-2"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 640 512"
           >
@@ -57,11 +57,11 @@ export default function Header() {
         </a>
 
         <a
-          className="p-1 mx-4 text-xl font-medium flex items-center rounded-md outline-primary"
+          className="visited:fill-supporting p-1 mx-4 text-xl font-medium flex items-center rounded-md outline-primary"
           href="#pricing"
         >
           <svg
-            className="h-5 inline-block mr-2"
+            className="fill-supporting h-5 inline-block mr-2"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 640 512"
           >
@@ -71,11 +71,11 @@ export default function Header() {
         </a>
 
         <a
-          className="p-1 mx-4 text-xl font-medium flex items-center rounded-md outline-primary"
+          className="visited:fill-supporting p-1 mx-4 text-xl font-medium flex items-center rounded-md outline-primary"
           href="#join"
         >
           <svg
-            className="h-5 inline-block mr-2"
+            className="fill-supporting h-5 inline-block mr-2"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
           >
@@ -84,11 +84,11 @@ export default function Header() {
           <span>Join Us</span>
         </a>
         <a
-          className="p-1 mx-4 text-xl font-medium flex items-center rounded-md outline-primary"
+          className="visited:fill-supporting p-1 mx-4 text-xl font-medium flex items-center rounded-md outline-primary"
           href="#about"
         >
           <svg
-            className="h-5 inline-block mr-2"
+            className="fill-supporting h-5 inline-block mr-2"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
           >
@@ -130,11 +130,11 @@ export default function Header() {
             </button>
             <nav className="flex flex-col items-start w-44 overflow-hidden text-ellipsis">
               <a
-                className="p-1 mx-4 my-2 text-xl font-medium flex items-center rounded-md outline-primary"
+                className="visited:fill-supporting p-1 mx-4 my-2 text-xl font-medium flex items-center rounded-md outline-primary"
                 href="#"
               >
                 <svg
-                  className="h-5 inline-block mr-2"
+                  className="fill-supporting h-5 inline-block mr-2"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 576 512"
                 >
@@ -143,11 +143,11 @@ export default function Header() {
                 <span>Home</span>
               </a>
               <a
-                className="p-1 mx-4 my-2 text-xl font-medium flex items-center rounded-md outline-primary"
+                className="visited:fill-supporting p-1 mx-4 my-2 text-xl font-medium flex items-center rounded-md outline-primary"
                 href="#services"
               >
                 <svg
-                  className="h-5 inline-block mr-2"
+                  className="fill-supporting h-5 inline-block mr-2"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 640 512"
                 >
@@ -156,11 +156,11 @@ export default function Header() {
                 <span>Services</span>
               </a>
               <a
-                className="p-1 mx-4 my-2 text-xl font-medium flex items-center rounded-md outline-primary"
+                className="visited:fill-supporting p-1 mx-4 my-2 text-xl font-medium flex items-center rounded-md outline-primary"
                 href="#pricing"
               >
                 <svg
-                  className="h-5 inline-block mr-2"
+                  className="fill-supporting h-5 inline-block mr-2"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 640 512"
                 >
@@ -170,11 +170,11 @@ export default function Header() {
               </a>
 
               <a
-                className="p-1 mx-4 my-2 text-xl font-medium flex items-center rounded-md outline-primary"
+                className="visited:fill-supporting p-1 mx-4 my-2 text-xl font-medium flex items-center rounded-md outline-primary"
                 href="#join"
               >
                 <svg
-                  className="h-5 inline-block mr-2"
+                  className="fill-supporting h-5 inline-block mr-2"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 448 512"
                 >
@@ -183,11 +183,11 @@ export default function Header() {
                 <span>Join Us</span>
               </a>
               <a
-                className="p-1 mx-4 my-2 text-xl font-medium flex items-center rounded-md outline-primary"
+                className="visited:fill-supporting p-1 mx-4 my-2 text-xl font-medium flex items-center rounded-md outline-primary"
                 href="#about"
               >
                 <svg
-                  className="h-5 inline-block mr-2"
+                  className="fill-supporting h-5 inline-block mr-2"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 512 512"
                 >
