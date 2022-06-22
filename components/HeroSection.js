@@ -4,11 +4,11 @@ import Header from './Header';
 
 export default function HeroSection() {
   return (
-    <div className="hero-section h-screen w-full relative flex flex-col justify-center">
+    <div className="hero-section w-full relative flex flex-col justify-center">
       <header className="fixed w-full top-0 z-50">
         <Header />
       </header>
-      <section className="mt-14 lg:mt-0">
+      <section className="mt-16 lg:mt-0">
         <div className="m-4 lg:m-20 flex flex-col md:flex-row items-center justify-between overflow-hidden">
           <div className="intro m-2 lg:m-4 text-center md:text-left overflow-hidden">
             <h1
