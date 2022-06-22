@@ -39,7 +39,8 @@ export default function ServicesSection() {
         {services.map((service, index) => (
           <div
             key={index}
-            className="h-44 w-44 md:h-80 md:w-80 shadow-lg rounded-md relative my-6 mx-10 md:mx-14"
+            className="h-72 w-72 md:h-80 md:w-80 shadow-lg rounded-md relative my-6 mx-10 md:mx-14"
+            style={{ maxWidth: '75%' }}
           >
             {/* bg image */}
             <div className="h-full w-full relative rounded-md">
@@ -56,7 +57,7 @@ export default function ServicesSection() {
             {/* top box */}
             <Fade right duration={1000} delay={200}>
               <div
-                className="h-3/4 w-3/4 p-2 md:p-4 bg-white shadow-lg rounded-md absolute border-2 border-slate-50"
+                className="h-3/4 w-3/4 p-3 md:p-4 bg-white shadow-lg rounded-md absolute border-2 border-slate-50"
                 style={{
                   top: '12.5%',
                   left: '50%',
@@ -64,7 +65,7 @@ export default function ServicesSection() {
               >
                 {/* header */}
                 <div className="flex flex-row items-center">
-                  <div className="h-6 w-8 md:h-8 md:w-12 rounded relative inline-block mr-1 md:mr-2">
+                  <div className="h-8 w-10 md:h-10 md:w-12 rounded relative inline-block mr-1 md:mr-2">
                     <div className="h-full w-full">
                       <Image
                         className="rounded-md"
@@ -75,14 +76,14 @@ export default function ServicesSection() {
                       />
                     </div>
                   </div>
-                  <div className="text-sm md:text-2xl font-extrabold text-primary whitespace-nowrap inline-block">
+                  <div className="text-lg md:text-2xl font-extrabold text-primary whitespace-nowrap inline-block">
                     {service.title}
                   </div>
                 </div>
                 {/* header end */}
 
                 {/* body */}
-                <div className="mt-2 md:mt-4 text-xs md:text-lg font-medium md:font-bold">
+                <div className="mt-2 md:mt-4 text-base md:text-lg font-semibold md:font-bold">
                   {service.desc}
                 </div>
                 {/* body end */}
