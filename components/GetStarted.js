@@ -83,29 +83,29 @@ export default function GetStarted() {
 
         {/* 'Join Us' Form */}
         <div className="m-6">
-          <form className="h-auto max-w-full border-2 border-slate-50 rounded-md shadow-xl shadow-light p-6">
-            <div className="flex flex-row flex-wrap justify-between items-center">
-              <div className="m-2">
+          <form className="h-auto max-w-full border-2 border-slate-50 rounded-md shadow-xl shadow-light p-10">
+            <div className="flex flex-col md:flex-row">
+              <div className="m-2 w-full md:w-auto">
                 <label className="block text-lg" htmlFor="first_name">
                   First name
                 </label>
                 <input
                   value={firstName}
                   onChange={(event) => setFirstName(event.target.value)}
-                  className="border-2 border-light-shade rounded-md h-10 p-2 outline-none focus:ring-2 ring-light"
+                  className="w-full border-2 border-light-shade rounded-md h-10 p-2 outline-none focus:ring-2 ring-light"
                   type="text"
                   required="required"
                   id="first_name"
                 />
               </div>
-              <div className="m-2">
+              <div className="m-2 w-full md:w-auto">
                 <label className="block text-lg" htmlFor="last_name">
                   Last name
                 </label>
                 <input
                   value={lastName}
                   onChange={(event) => setLastName(event.target.value)}
-                  className="border-2 border-light-shade rounded-md h-10 p-2 outline-none focus:ring-2 ring-light"
+                  className="w-full border-2 border-light-shade rounded-md h-10 p-2 outline-none focus:ring-2 ring-light"
                   type="text"
                   required="required"
                   id="last_name"
@@ -113,29 +113,29 @@ export default function GetStarted() {
               </div>
             </div>
 
-            <div className="flex flex-row flex-wrap justify-start items-center">
-              <div className="m-2">
+            <div className="flex flex-col md:flex-row">
+              <div className="m-2 w-full md:w-auto">
                 <label className="block text-lg" htmlFor="age">
                   Age <span className="text-sm text-supporting">(yrs)</span>
                 </label>
                 <input
                   value={age}
                   onChange={(event) => setAge(event.target.value)}
-                  className="border-2 border-light-shade rounded-md h-10 p-2 outline-none focus:ring-2 ring-light"
+                  className="w-full border-2 border-light-shade rounded-md h-10 p-2 outline-none focus:ring-2 ring-light"
                   type="number"
                   min="1"
                   required="required"
                   id="age"
                 />
               </div>
-              <div className="m-2">
+              <div className="m-2 w-full md:w-auto">
                 <label className="block text-lg" htmlFor="weight">
                   Weight <span className="text-sm text-supporting">(kg)</span>
                 </label>
                 <input
                   value={weight}
                   onChange={(event) => setWeight(event.target.value)}
-                  className="border-2 border-light-shade rounded-md h-10 p-2 outline-none focus:ring-2 ring-light"
+                  className="w-full border-2 border-light-shade rounded-md h-10 p-2 outline-none focus:ring-2 ring-light"
                   type="number"
                   min="1"
                   required="required"
@@ -143,7 +143,7 @@ export default function GetStarted() {
                 />
               </div>
             </div>
-            <div className="m-2">
+            <div className="m-2 w-full md:w-auto">
               <label className="block text-lg" htmlFor="email">
                 Email
               </label>
@@ -157,7 +157,7 @@ export default function GetStarted() {
                 id="email"
               />
             </div>
-            <div className="m-2">
+            <div className="m-2 w-full md:w-auto">
               <label className="block text-lg" htmlFor="phone">
                 Phone
               </label>
@@ -171,7 +171,7 @@ export default function GetStarted() {
                 id="phone"
               />
             </div>
-            <div className="mt-6 mb-4 mx-2">
+            <div className="mt-6 mb-4 mx-2 w-full">
               <button
                 onClick={submitForm}
                 type="submit"
